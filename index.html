@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YO APRENDO ACADEMIA</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <img src="https://picsum.photos/150/50?random=1" alt="YO APRENDO ACADEMIA" class="h-12">
+      <div class="space-x-6 font-semibold">
+        <a href="#inicio" class="hover:text-pink-600">Inicio</a>
+        <a href="#cursos" class="hover:text-pink-600">Cursos</a>
+        <a href="#testimonios" class="hover:text-pink-600">Testimonios</a>
+        <a href="#contacto" class="hover:text-pink-600">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- INICIO -->
+  <section id="inicio" class="h-screen bg-gradient-to-r from-pink-200 to-rose-200 text-gray-800 flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Transforma tu futuro académico</h1>
+    <p class="text-xl md:text-2xl mb-6">Con nuestros cursos personalizados y profesores especializados</p>
+    <a href="#contacto" class="bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 transition">Solicita tu clase de prueba</a>
+  </section>
+
+  <!-- CURSOS -->
+  <section id="cursos" class="py-20 bg-rose-100 text-center">
+    <h2 class="text-3xl font-bold text-pink-700 mb-12">Nuestros Cursos</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+      <div class="card bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://picsum.photos/400/300?random=2" alt="Primaria" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-pink-700">Primaria</h3>
+          <p>Clases dinámicas para potenciar el aprendizaje desde los primeros años.</p>
+        </div>
+      </div>
+      <div class="card bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://picsum.photos/400/300?random=3" alt="ESO y Bachillerato" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-pink-700">ESO y Bachillerato</h3>
+          <p>Apoyo completo en todas las asignaturas con seguimiento personalizado.</p>
+        </div>
+      </div>
+      <div class="card bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://picsum.photos/400/300?random=4" alt="Idiomas" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-pink-700">Idiomas</h3>
+          <p>Clases de inglés y otros idiomas adaptadas a tu nivel y ritmo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" class="py-20 text-center bg-rose-200">
+    <h2 class="text-3xl font-bold text-pink-700 mb-12">Testimonios</h2>
+    <div class="swiper mySwiper max-w-4xl mx-auto">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Excelente academia, mis hijos mejoraron muchísimo en matemáticas y ciencias."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– María López</h4>
+        </div>
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Profesores muy preparados y clases muy dinámicas, lo recomiendo 100%."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Juan Pérez</h4>
+        </div>
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Ambiente excelente y atención personalizada. Aprender es un placer."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Laura García</h4>
+        </div>
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Me ayudaron a superar mis dificultades con mucho cariño y paciencia."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Ana Torres</h4>
+        </div>
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Excelente ambiente y recursos para aprender de manera divertida."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Carlos Medina</h4>
+        </div>
+        <div class="swiper-slide bg-white p-6 rounded-lg shadow-lg">
+          <p class="text-gray-700">"Los profesores se adaptan al ritmo de cada alumno, muy recomendable."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Sofía Ruiz</h4>
+        </div>
+      </div>
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 bg-rose-100 text-center">
+    <h2 class="text-3xl font-bold text-pink-700 mb-12">Contáctanos</h2>
+    <div class="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto px-4">
+      <form class="bg-white p-6 rounded-lg shadow-lg text-left">
+        <div class="mb-4">
+          <label class="block mb-2 font-medium text-gray-800">Nombre</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-3 py-2" required>
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-medium text-gray-800">Correo electrónico</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-3 py-2" required>
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-medium text-gray-800">Mensaje</label>
+          <textarea class="w-full border border-gray-300 rounded px-3 py-2" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700 transition">Enviar</button>
+      </form>
+
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <iframe class="w-full h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086231684441!2d-0.987654!3d38.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63a1d123456789%3A0x123456789abcdef!2sSantomera!5e0!3m2!1ses!2ses!4v1692540000000" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botones flotantes -->
+  <a href="https://wa.me/1234567890" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-5 rounded-full shadow-lg z-50 flex items-center justify-center">
+    <i class="fab fa-whatsapp text-2xl"></i>
+  </a>
+  <a href="https://www.instagram.com/yoaprendo.academy/" target="_blank" class="fixed bottom-6 right-20 bg-gradient-to-tr from-pink-400 to-purple-500 hover:from-pink-500 hover:to-purple-600 text-white p-5 rounded-full shadow-lg z-50 flex items-center justify-center">
+    <i class="fab fa-instagram text-2xl"></i>
+  </a>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
